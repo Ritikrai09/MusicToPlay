@@ -1,0 +1,340 @@
+<html onclick='openScreen();'>
+<head>
+<title>animations</title>
+	<link rel="stylesheet" href="rit.css">
+
+</head>
+<body id='heading'>
+	<header>
+	<div class='R'>
+  <div class="ray1 ray"></div>
+  <div class="ray2 ray"></div>
+   <div class="ray3 ray"></div>
+     <div class="ray4 ray"></div>
+</div>
+	</header>
+    <div id='singer'>
+  <div class='playlist' id='playing'>Playlist</div>
+  <div id="A2" class="song">
+     <buttton class="song101" id="sing">Romantic Mood</buttton>
+ <ul class="song11 ss"></ul>
+   </div>
+  <div id="Db" class="song">
+    <buttton class="song102" id="sing">Party Mode</buttton>
+ <ul class="song12 ss"></ul>
+  </div>
+    <div id="Ev" class="song">
+      <buttton class="song103" id="sing">Workout Mode</buttton>
+ <ul class="song13 ss"></ul>
+    </div>
+
+ </div>
+  <main>
+  <div class ='div'>
+		<div>
+  <span class='span span1'></span>
+		</div>
+	<div class ='div' style='filter: none;'>
+<div class ='div1' style='filter: none;'><<    >><br>  ||</div>
+    <div>
+ <span class='span'></span>
+		</div>
+</div>
+</div>
+<div class='pot'></div>
+<div class ='lamp'>
+<span class='lamp1'></span>
+<span class='lamp2'></span>
+</div>
+
+        <audio controls="" style='display:none;'>
+       <source src="disco.mp3"  type="audio/mpeg">
+       </audio>
+    <div class='list'>
+    <ul class='listing'>
+      <li><center>PLAYLIST</center></li>
+    </ul>
+    </div>   
+
+	</main>
+
+<script type='text/javascript'>
+
+    function openScreen()
+    
+    {
+    
+    let audios = document.querySelector('audio').pause();
+ 
+    var elem9 = document.documentElement;
+
+      if(elem9.requestFullscreen)
+      {
+   
+        elem9.requestFullscreen();
+
+      } else if(elem9.webkitRequestFullscreen)
+        {
+          elem9.webkitRequestFullscreen();
+      }
+    
+    }
+
+console.log(document.getElementsByTagName("li").length);
+
+let morning = document.querySelector(".song101");
+let noon = document.querySelector(".song102");
+let evening = document.querySelector(".song103");
+let li = document.createElement("li");
+let li1 = document.createElement("li");
+let li2 = document.createElement("li");
+let mylist1 = document.querySelector(".list");
+
+li.setAttribute("id","line");
+li1.setAttribute("id","line");
+li2.setAttribute("id","line");
+
+let str ="Ek villain"; 
+let str1 = "Aashiqui2";
+let str2 = "Luka chuppi";
+
+li.setAttribute("onclick","sing(this.innerHTML)");
+li1.setAttribute("onclick","sing(str)");
+li2.setAttribute("onclick","sing(str2)");
+
+
+li.className="s1";
+li1.className="s2";
+li2.className="s3";
+
+function sing(str)
+  {
+  let uli = document.createElement("ul");
+  let uli1 =  document.querySelector(".listing");
+  let li5 = document.createElement("li");
+    let li6 = document.createElement("li");
+      let li7 = document.createElement("li");
+ let mylist = document.querySelector(".listing");
+let img = document.createElement("img");
+img.src="imgplay.png";
+img.style.width=30+"px";
+img.style.height=35+"px";
+img.style.paddingTop="10px";
+img.style.paddingRight="5px";
+img.style.marginLeft="-12px";
+img.style.borderRadius="50%";
+let img1 = document.createElement("img");
+img1.src="imgplay.png";
+img1.style.width=30+"px";
+img1.style.height=35+"px";
+img1.style.paddingTop="10px";
+img1.style.paddingRight="5px";
+img1.style.marginLeft="-12px";
+img1.style.borderRadius="50%";
+let img2 = document.createElement("img");
+img2.src="imgplay.png";
+img2.style.width=30+"px";
+img2.style.height=35+"px";
+img2.style.paddingRight="5px";
+img2.style.paddingTop="10px";
+img2.style.marginLeft="-12px";
+img2.style.borderRadius="50%";
+
+    li5.className='col1';
+      li6.className='col2';
+      li7.className='col3';
+   mylist1.style.animation='fade-in 300ms linear';
+
+if (document.querySelector(".s1").innerHTML == str) {
+   
+   mylist1.style.display='block';
+   mylist.firstElementChild.innerHTML="Aashiqui2";
+  li5.textContent='Sunn rha hai';
+    li6.textContent='Tumhi ho';
+      li7.textContent='piya ayena';
+  
+  }
+
+  else if (document.querySelector(".s2").innerHTML == str) {
+   mylist1.style.display='block';
+   mylist.firstElementChild.innerHTML="Ek villain";
+  li5.textContent='Humdard';
+    li6.textContent='Banjarey';
+      li7.textContent='Teri Galiyan';
+ 
+  }
+
+
+  else if (document.querySelector(".s3").innerHTML == str) {
+   mylist1.style.display='block';
+   mylist.firstElementChild.innerHTML="Luka chuppi";
+  li5.textContent='Photo';
+    li6.textContent='Duniyaa';
+      li7.textContent='Coca cola';
+ 
+  }
+  
+   else if (document.querySelector("#line").innerHTML == str) {
+
+   mylist1.style.display='block';
+   mylist.firstElementChild.innerHTML="Honey singh";
+    boy.makhna = li5.innerHTML='Makhna';
+    boy.loka = li5.innerHTML='loka';
+    for(var vj in boy) { 
+li5.innerHTML+=boy[vj]+'<br>'; //addng elements shortly
+} 
+
+  }
+  uli.appendChild(li5);
+  li5.prepend(img);
+
+  uli.appendChild(li6);
+ li6.prepend(img1);
+
+  uli.appendChild(li7);
+  li7.prepend(img2);
+
+  uli1.appendChild(uli);
+}
+
+
+ document.querySelector("#A2").onclick = function(){
+li.textContent="Aashiqui2";
+li1.textContent="Ek villain";
+li2.textContent="Luka chuppi";
+morning.appendChild(li);
+morning.appendChild(li1);
+morning.appendChild(li2);
+
+}
+
+ document.querySelector("#Db").onclick = function(){
+li.textContent="Honey singh";
+li1.textContent="Badshah";
+li2.textContent="Guru randhawa";
+noon.appendChild(li);
+noon.appendChild(li1);
+noon.appendChild(li2);
+
+}
+
+ document.querySelector("#Ev").onclick = function(){
+li.textContent="Album";
+evening.appendChild(li);
+li1.remove();
+li2.remove();
+}
+
+
+document.querySelector(".playlist").addEventListener("click",function play()
+{
+    var play = document.querySelector('#Db');
+   var play1 = document.querySelector('#A2');
+     var play2 = document.querySelector('#Ev');
+	 var sing=document.querySelector(".song");
+     play.style.paddingTop = 20+'px';
+     play1.style.paddingTop = 20+'px';
+     play2.style.paddingTop = 20+'px';
+     play.style.animation= "upwards 300ms linear";
+      play1.style.animation= "upwards 300ms linear";
+       play2.style.animation= "upwards 300ms linear";
+   play.style.top = 200+'px';
+   play1.style.top = 300+'px';
+   play2.style.top = 200+'px';
+   play.style.left = 765+'px';
+   play1.style.left = 865+'px';
+   play2.style.left = 965+'px';
+   play.style.boxShadow = '2px 10px 10px 0px #555555';
+   play1.style.boxShadow = '2px 10px 10px 0px #555555';
+  play2.style.boxShadow = '2px 10px 10px 0px #555555';
+  play.style.zIndex=1;
+	play1.style.zIndex=1;
+	play2.style.zIndex=1;
+  play.style.display="block";
+  play1.style.display="block";
+  play2.style.display="block";
+});
+
+window.onclick=function(div)
+{
+     var play = document.querySelector("#Db");
+   var play1 = document.querySelector("#A2");
+     var play2 = document.querySelector("#Ev");
+  if (div.target.id!=="playing"&&div.target.id!=="Db"&&div.target.id!=="Ev"&&div.target.id!=="A2"&&div.target.id!=="sing"&&div.target.id!=="line") {
+    play.style.display="none";
+  play1.style.display="none";
+  play2.style.display="none";
+ mylist1.style.display='none';
+  }
+ }
+
+
+function getrandomColor()
+{
+var letters = '0123456789ABCDEF'.split('');
+var capital = '#';
+
+for(var i = 0; i<6; i++)
+{
+  capital += letters[Math.floor(Math.random() * 16)];
+}
+return capital;
+}
+
+var bliss = document.getElementById('heading');
+
+bliss.style.animation = 'changeColor 3s 3s ease-in infinite';
+
+function getrandom(max,min)
+{
+return min + (max-min) - min;
+}
+function disco()
+{
+
+var count = 60;
+var flooring = document.querySelector('main');
+var i = 0;
+
+while(i < count){
+ var circ = document.createElement("i");
+ var x = Math.floor(Math.random() * window.innerwidth);
+ var y = Math.floor(Math.random() * window.innerHeight);
+ var duration = Math.random() * 10;
+ var size = Math.random() * -700;
+
+ circ.style.left = getrandom(100,0)+x+'px';
+ circ.style.top = y+getrandom(-600,-200)+'px';
+ circ.style.minWidth = 10+'px';
+ circ.style.transform='scale('+1.8+')';
+ circ.style.minHeight = 10+'px';
+  circ.style.zIndex = -1;
+circ.style.opacity = getrandom(0.4,0.2);
+ circ.style.backgroundColor=getrandomColor();
+ circ.style.animation='spin 20s 2s ease-in-out infinite';
+
+ if (i > 20) {
+    circ.style.animation='spin 23s 2s ease-in-out infinite';
+ }
+
+if (i > 30) {
+  circ.style.left = getrandom(500,500)+x+'px';
+  circ.style.top =  getrandom(-400,-350)+y+'px';
+   circ.style.animation='spin 18s 2s ease-in-out infinite';
+     flooring.prepend(circ);
+}
+
+  flooring.prepend(circ);
+ i++;
+
+ }
+
+}
+
+disco();
+
+
+</script>
+
+</body>
+</html>
