@@ -17,7 +17,6 @@ transform: scale(0.85);
 background-color: black;
 animation: shift 3000ms linear 1;
 background-position: top center;
-overflow: hidden;
 margin-top: -100px;
   }
 
