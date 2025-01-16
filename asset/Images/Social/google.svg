@@ -1,0 +1,6 @@
+<svg id="google" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <path id="Path" d="M4.395,4.395a14.992,14.992,0,0,1,21.21,0L21.363,8.637a9,9,0,0,0-12.726,0Z" fill="#eb4134" fill-rule="evenodd"/>
+  <path id="Path-2" data-name="Path" d="M21.363,21.363,25.6,25.6a14.992,14.992,0,0,1-21.21,0l4.242-4.242a9,9,0,0,0,12.726,0Z" fill="#34aa51" fill-rule="evenodd"/>
+  <path id="Path-3" data-name="Path" d="M4.395,4.395,8.637,8.637a9,9,0,0,0,0,12.726L4.395,25.6a14.992,14.992,0,0,1,0-21.21Z" fill="#fbbe04" fill-rule="evenodd"/>
+  <path id="Path-4" data-name="Path" d="M15,12H29.7a14.984,14.984,0,0,1-4.1,13.6l-4.242-4.242A9,9,0,0,0,23.487,18H15Z" fill="#4186f7" fill-rule="evenodd"/>
+</svg>

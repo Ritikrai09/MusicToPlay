@@ -1,0 +1,34 @@
+<svg id="united_states" xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  <circle id="white" cx="19" cy="19" r="19" fill="#fff"/>
+  <path id="red" d="M19,8.867H35.075a19.08,19.08,0,0,0-2.3-2.956H19V8.867ZM19,0A18.911,18.911,0,0,1,29.182,2.956H19V0Zm0,14.778H37.529a18.854,18.854,0,0,0-.932-2.956H19v2.956ZM0,19q0,.854.074,1.689H37.926Q38,19.854,38,19q0-.638-.042-1.267H19V19Zm37.428,4.644A18.856,18.856,0,0,1,36.419,26.6H1.581A18.856,18.856,0,0,1,.572,23.644ZM34.8,29.556a19.094,19.094,0,0,1-2.442,2.956H5.641A19.094,19.094,0,0,1,3.2,29.556Zm-6.315,5.911a19.024,19.024,0,0,1-18.97,0h18.97Z" fill="#e94b35" fill-rule="evenodd"/>
+  <path id="blue" d="M19,0A19,19,0,0,0,0,19H19V0Z" fill="#227fbb" fill-rule="evenodd"/>
+  <g id="stars" transform="translate(1.478 1.9)">
+    <path id="star" d="M5.787,5.375,5.212,5.7l.11-.687-.466-.487.644-.1L5.787,3.8l.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-2" data-name="star" d="M5.787,8.753l-.576.325.11-.687L4.856,7.9,5.5,7.8l.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-3" data-name="star" d="M3.465,7.487l-.576.325L3,7.124l-.466-.487.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-4" data-name="star" d="M3.254,10.653l-.576.325.11-.687L2.322,9.8l.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-5" data-name="star" d="M5.365,12.764l-.576.325L4.9,12.4l-.466-.487.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-6" data-name="star" d="M3.254,14.031l-.576.325.11-.687-.466-.487.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-7" data-name="star" d="M.932,12.342l-.576.325.11-.687L0,11.492l.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-8" data-name="star" d="M.932,15.72l-.576.325.11-.687L0,14.87l.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-9" data-name="star" d="M5.787,15.72l-.576.325.11-.687-.466-.487.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-10" data-name="star" d="M15.5,1.575l-.576.325.11-.687L14.567.726l.644-.1L15.5,0l.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-11" data-name="star" d="M15.5,4.953l-.576.325.11-.687L14.567,4.1l.644-.1.288-.625L15.787,4l.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-12" data-name="star" d="M15.5,8.331l-.576.325.11-.687-.466-.487.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-13" data-name="star" d="M15.5,11.709l-.576.325.11-.687-.466-.487.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-14" data-name="star" d="M12.965,3.475l-.576.325.11-.687-.466-.487.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-15" data-name="star" d="M12.965,6.853l-.576.325.11-.687L12.033,6l.644-.1.288-.625.288.625L13.9,6l-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-16" data-name="star" d="M12.965,10.231l-.576.325.11-.687-.466-.487.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-17" data-name="star" d="M12.965,13.609l-.576.325.11-.687-.466-.487.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-18" data-name="star" d="M15.5,15.3l-.576.325.11-.687-.466-.487.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-19" data-name="star" d="M10.854,2l-.576.325.11-.687-.466-.487.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-20" data-name="star" d="M10.854,5.375l-.576.325.11-.687-.466-.487.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-21" data-name="star" d="M10.854,8.753l-.576.325.11-.687L9.922,7.9l.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-22" data-name="star" d="M10.854,12.131l-.576.325.11-.687-.466-.487.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-23" data-name="star" d="M8.321,3.9l-.576.325.11-.687-.466-.487.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-24" data-name="star" d="M8.321,7.275,7.745,7.6l.11-.687-.466-.487.644-.1L8.321,5.7l.288.625.644.1-.466.487L8.9,7.6Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-25" data-name="star" d="M8.321,10.653l-.576.325.11-.687L7.389,9.8l.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-26" data-name="star" d="M8.321,14.031l-.576.325.11-.687-.466-.487.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="star-27" data-name="star" d="M10.854,15.72l-.576.325.11-.687-.466-.487.644-.1.288-.625.288.625.644.1-.466.487.11.687Z" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg id="linkedin" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <circle id="Mask" cx="15" cy="15" r="15" fill="#0e76a8"/>
+  <g id="_939750_in_linked_linkedin-icon_icon" data-name="939750_in_linked_linkedin-icon_icon">
+    <g id="Group_364" data-name="Group 364" transform="translate(1 2)">
+      <path id="Path" d="M24.75,0H2.25A2.257,2.257,0,0,0,0,2.25v22.5A2.257,2.257,0,0,0,2.25,27h22.5A2.257,2.257,0,0,0,27,24.75V2.25A2.257,2.257,0,0,0,24.75,0Z" fill="#0e76a8"/>
+      <g id="in" transform="translate(7 5)">
+        <path id="n_1_" d="M4.941,5.019H7.8v1.5h0a3.074,3.074,0,0,1,2.855-1.5c3.02,0,3.349,1.788,3.349,4.5V15H11.145V9.981c0-1.154.11-2.481-1.427-2.481C7.8,7.5,7.8,8.712,7.8,9.981V15H4.941V5.019Z" fill="#fff"/>
+        <rect id="_x7C__1_" width="2.855" height="9.981" transform="translate(0.22 5.019)" fill="#fff"/>
+        <ellipse id="_x28____x29__1_" cx="1.647" cy="1.731" rx="1.647" ry="1.731" transform="translate(0 0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

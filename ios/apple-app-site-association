@@ -1,0 +1,20 @@
+{
+  "applinks":{
+    "apps":[
+       
+    ],
+    "details":[
+      {
+        "appIDs":[
+          "86Q4L977MS.app.signal.flutter"
+        ],
+        "components":[
+          {
+            "/":"*",
+            "comment":"Matches URL with a path to open blog"
+          }
+        ]
+      }
+    ]
+  }
+}
